@@ -17,8 +17,8 @@ def webhook():
 	if data['name'] != 'ROBO APE':
 	
 		#figure out what to send here
-		print("recieved msg " + msg)
 		msg = botlogic.getResponse(data)
+		print("recieved msg " + msg)
 		send_message(msg)
 
 		return "ok", 200
