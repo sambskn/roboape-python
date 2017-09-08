@@ -11,7 +11,7 @@ def getResponse(data):
 		for keyword in template['keywords']:
 			if keyword in message.lower():
 				potentialResponses = template['responses']
-				if random.uniform(0, 1)<template['chance']:
+				if random.uniform(0, 1)<template['chance'][0]:
 					return random.choice(potentialResponses)
 
 	if "roboape" in message:
