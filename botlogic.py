@@ -5,8 +5,9 @@ import random
 def getResponse(data):
 	#see groupme API for details about data JSON object
 	with open('chatBank.json') as json_data:
-		chatBank = json.load(json_data).read()
+		chatBank = json.load(json_data)
 	message = data['text']
+	print(chatBank)
 	for template in chatBank:
 		print(template)
 		for keyword in template['keywords']:
