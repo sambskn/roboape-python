@@ -18,8 +18,8 @@ def webhook():
 	
 		#figure out what to send here
 		msg = botlogic.getResponse(data)
-		print("recieved msg " + msg)
-		send_message(msg)
+		if msg:
+			send_message(msg)
 
 		return "ok", 200
 
