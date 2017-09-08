@@ -1,50 +1,5 @@
 {
-  "templates": [{
-      "keywords": [
-        "hey roboape",
-        "yo roboape"
-      ],
-      "responses": [
-        "sup fam",
-        "hello cousin",
-        "you should ask roboape that he probably knows lol",
-        "ape-solutely",
-        "defin-ape-ly not",
-        "°‿‿°",
-        "~try agian l8r~ roboape is currently busting a fat chill and will be back soon ~ ciao  ;)~",
-        "roboape is not for users under 18",
-        "get ur parents permission before playing with roboape ;)",
-        "SORRY ROBO APE ONLY",
-        "WANT BETTER RESPONSES FOR ROBOAPE? MAIL YOUR CREDIT CARD TO 2751 S PICKARD AVE",
-        "in the wild, apes will survive on insects and bananas alone, sadly, I have only have your garbage questions",
-        "ROBO APE PSA: If you don't swipe a upperclassman into the caf or provide a distraction for them to sneak in a minimum of 3 (three) times a week you will eat a handful of worms at next monday's practice",
-        "look guys the robotic ape does trick ha ha",
-        "would you say that to your grandmother",
-        "no",
-        "yep",
-        "mhmhm",
-        "¯\\_(ツ)_/¯"
-
-      ],
-      "frequency": [
-        1
-      ]
-    },
-    {
-      "keywords": [
-        "fuck you roboape",
-        "fuck roboape'"
-      ],
-      "responses": [
-        "excuse me?",
-        "cousin no",
-        "you suck",
-        "listen up you shitstain, everybody thinks you wear cool pants"
-      ],
-      "frequency": [
-        1
-      ]
-    },
+  "templates": [
     {
       "keywords": [
         "when is jpn"
@@ -102,6 +57,52 @@
         "nov 11-12 obvi",
         "oh tomorrow probably idk",
         "IT'S NOVEMBER 11 AND !2 tell your dad to buy plane tix"
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "hey roboape",
+        "yo roboape"
+      ],
+      "responses": [
+        "sup fam",
+        "hello cousin",
+        "you should ask roboape that he probably knows lol",
+        "ape-solutely",
+        "defin-ape-ly not",
+        "°‿‿°",
+        "~try agian l8r~ roboape is currently busting a fat chill and will be back soon ~ ciao  ;)~",
+        "roboape is not for users under 18",
+        "get ur parents permission before playing with roboape ;)",
+        "SORRY ROBO APE ONLY",
+        "WANT BETTER RESPONSES FOR ROBOAPE? MAIL YOUR CREDIT CARD TO 2751 S PICKARD AVE",
+        "in the wild, apes will survive on insects and bananas alone, sadly, I have only have your garbage questions",
+        "ROBO APE PSA: If you don't swipe a upperclassman into the caf or provide a distraction for them to sneak in a minimum of 3 (three) times a week you will eat a handful of worms at next monday's practice",
+        "look guys the robotic ape does trick ha ha",
+        "would you say that to your grandmother",
+        "no",
+        "yep",
+        "mhmhm",
+        "¯\\_(ツ)_/¯"
+
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "fuck you roboape",
+        "fuck roboape'"
+      ],
+      "responses": [
+        "excuse me?",
+        "cousin no",
+        "you suck",
+        "listen up you shitstain, everybody thinks you wear cool pants"
       ],
       "frequency": [
         1
@@ -330,10 +331,11 @@
         "suds"
       ],
       "responses": [
-        "SUDS SAID WHAT??? THESE 10 SNAPCHATS WILL SHOCK AND DISGUST YOU"
+        "SUDS SAID WHAT??? THESE 10 SNAPCHATS WILL SHOCK AND DISGUST YOU",
+        "sounds pretty suds-spect to me lol"
       ],
       "frequency": [
-        0.1
+        0.3
       ]
     },
     {
