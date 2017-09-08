@@ -11,7 +11,7 @@ def getResponse(data):
 	for template in chatBank['templates']:
 		print(template)
 		for keyword in template['keywords']:
-			if keyword in message:
+			if keyword in message.lower():
 				potentialResponses = template['responses']
 				return random.choice(potentialResponses)
 

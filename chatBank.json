@@ -19,6 +19,61 @@
         "excuse me?",
         "cousin no"
       ]
+    },
+    {
+      "keywords": [
+        "when is jpn"
+      ],
+      "responses": [
+        "oct 21-22 should been known",
+        "oct 21-22",
+        "oct 21-22 bro cmon",
+        "oct 21-22",
+        "~ask again later~ jk oct 21-22"
+      ]
+    },
+    {
+      "keywords": [
+        "when is mlc"
+      ],
+      "responses": [
+        "nov 4-5 get ready for missouri it's so shitty",
+        "nov 4-5",
+        "nov 4-5 obvi",
+        "yesterday",
+        "nov fouth an fif"
+      ]
+    },
+    {
+      "keywords": [
+        "when is harvest"
+      ],
+      "responses": [
+        "nov 11-12 and i got my party hat I'M READY TO COMPETE",
+        "nov 11-12",
+        "nov 11-12 obvi",
+        "oh tomorrow probably idk",
+        "IT'S NOVEMBER 11 AND !2 u DUM BABY"
+      ]
+    },
+    {
+      "keywords": [
+        "cash app",
+        "donate",
+        "cashapp"
+      ],
+      "responses": [
+        "plz donate to fund roboape at $ambaskin",
+        "support roboape send beer money to roboape $ambaskin"
+      ]
+    },
+    {
+      "keywords": [
+        "venmo"
+      ],
+      "responses": [
+        "how about venNO? download the cash app and send ur college money to $ambaskin"
+      ]
     }
   ]
 }
