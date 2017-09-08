@@ -1,0 +1,24 @@
+{
+  "chatBank": [
+    {
+      "keywords": [
+        "hey roboape",
+        "yo roboape"
+      ],
+      "responses": [
+        "sup fam",
+        "hello cousin"
+      ]
+    },
+    {
+      "keywords": [
+        "fuck you roboape",
+        "fuck roboape'"
+      ],
+      "responses": [
+        "excuse me?",
+        "cousin no"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import os
 import json
+import botlogic
 
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -16,7 +17,7 @@ def webhook():
   if data['name'] != 'ROBO APE':
     
   	#figure out what to send here
-    msg = '{}, you sent "{}".'.format(data['name'], data['text'])
+    msg = botlogic.getResponse(data)
     send_message(msg)
 
   return "ok", 200
