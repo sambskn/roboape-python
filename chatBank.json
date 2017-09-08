@@ -341,6 +341,30 @@
     },
     {
       "keywords": [
+        "plex"
+      ],
+      "responses": [
+        "plux",
+        "plurx",
+        "ploox"
+      ],
+      "frequency": [
+        0.5
+      ]
+    },
+    {
+      "keywords": [
+        "supercell"
+      ],
+      "responses": [
+        "i am charged up"
+      ],
+      "frequency": [
+        0.3
+      ]
+    },
+    {
+      "keywords": [
         "joe"
       ],
       "responses": [

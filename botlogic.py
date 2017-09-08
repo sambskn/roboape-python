@@ -14,5 +14,4 @@ def getResponse(data):
 				if random.uniform(0, 1)<template['frequency'][0]:
 					return random.choice(potentialResponses)
 
-	if "roboape" in message:
-		return "lol idk fam"
+
