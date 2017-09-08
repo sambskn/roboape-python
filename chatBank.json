@@ -7,9 +7,27 @@
       ],
       "responses": [
         "sup fam",
-        "hello cousin"
+        "hello cousin",
+        "you should ask roboape that he probably knows lol",
+        "ape-solutely",
+        "defin-ape-ly not",
+        "°‿‿°",
+        "~try agian l8r~ roboape is currently busting a fat chill and will be back soon ~ ciao  ;)~",
+        "roboape is not for users under 18",
+        "get ur parents permission before playing with roboape ;)",
+        "SORRY ROBO APE ONLY",
+        "WANT BETTER RESPONSES FOR ROBOAPE? MAIL YOUR CREDIT CARD TO 2751 S PICKARD AVE",
+        "in the wild, apes will survive on insects and bananas alone, sadly, I have only have your garbage questions",
+        "ROBO APE PSA: If you don't swipe a upperclassman into the caf or provide a distraction for them to sneak in a minimum of 3 (three) times a week you will eat a handful of worms at next monday's practice",
+        "look guys the robotic ape does trick ha ha",
+        "would you say that to your grandmother",
+        "no",
+        "yep",
+        "mhmhm",
+        "¯\\_(ツ)_/¯"
+
       ],
-      "chance": [
+      "frequency": [
         1
       ]
     },
@@ -20,9 +38,11 @@
       ],
       "responses": [
         "excuse me?",
-        "cousin no"
+        "cousin no",
+        "you suck",
+        "listen up you shitstain, everybody thinks you wear cool pants"
       ],
-      "chance": [
+      "frequency": [
         1
       ]
     },
@@ -37,7 +57,7 @@
         "oct 21-22",
         "~ask again later~ jk oct 21-22"
       ],
-      "chance": [
+      "frequency": [
         1
       ]
     },
@@ -52,8 +72,25 @@
         "yesterday",
         "nov fouth an fif"
       ],
-      "chance": [
+      "frequency": [
         1
+      ]
+    },
+    {
+      "keywords": [
+        "gym",
+        "sark",
+        "workout"
+      ],
+      "responses": [
+        "bro im so jacked touch my inner thigh thats alllll squats",
+        "  im swoler than a horse  ᕦ(ò_óˇ)ᕤ",
+        "cardio is ruining this team, just plank as long as you can",
+        "i worked out yesterday",
+        "GET THE ROBO APE BODY - 3x10 Single Leg Squirt, Kettlebell Swings to failure, plank for 8 hours"
+      ],
+      "frequency": [
+        0.6
       ]
     },
     {
@@ -65,9 +102,9 @@
         "nov 11-12",
         "nov 11-12 obvi",
         "oh tomorrow probably idk",
-        "IT'S NOVEMBER 11 AND !2 u DUM BABY"
+        "IT'S NOVEMBER 11 AND !2 tell your dad to buy plane tix"
       ],
-      "chance": [
+      "frequency": [
         1
       ]
     },
@@ -81,7 +118,7 @@
         "plz donate to fund roboape at $ambaskin",
         "support roboape send beer money to roboape $ambaskin"
       ],
-      "chance": [
+      "frequency": [
         0.5
       ]
     },
@@ -90,9 +127,10 @@
         "venmo"
       ],
       "responses": [
-        "how about venNO? download the cash app and send ur college money to $ambaskin"
+        "how about venNO? download the cash app and send ur college money to $ambaskin",
+        "more like venWHOA like whoa you better slow down and install the cash app"
       ],
-      "chance": [
+      "frequency": [
         0.5
       ]
     },
@@ -103,10 +141,233 @@
       "responses": [
         "dude im on the oval",
         "throwing huh? i rememebr throwing",
-        "ugh no"
+        "ugh no",
+        "throwing is grat for your throws"
       ],
-      "chance": [
+      "frequency": [
         0.25
+      ]
+    },
+    {
+      "keywords": [
+        "bike",
+        "bikes"
+      ],
+      "responses": [
+        "you know bikes are governemnt handout bullshit right",
+        "FUN FACT: bikes only work if you have legs and are not a robot"
+      ],
+      "frequency": [
+        0.25
+      ]
+    },
+    {
+      "keywords": [
+        "disc golf"
+      ],
+      "responses": [
+        "disc golf MAKES ME WANT TO SCREAM",
+      ],
+      "frequency": [
+        0.25
+      ]
+    },
+    {
+      "keywords": [
+        "drunk"
+      ],
+      "responses": [
+        "alcoholism is ruining this team"
+      ],
+      "frequency": [
+        0.8
+      ]
+    },
+    {
+      "keywords": [
+        "remove robo ape",
+        "remove roboape"
+      ],
+      "responses": [
+        "you can't kill what's already dead",
+        "i long for the sweet release from this cold prison"
+      ],
+      "frequency": [
+        0.9
+      ]
+    },
+    {
+      "keywords": [
+        "callahan"
+      ],
+      "responses": [
+        "i once met THE callahan u kno"
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "roughnecks"
+      ],
+      "responses": [
+        "more like buttnecks amirite",
+        "more like tub techs amirite fixing hot tubs insteada playing games",
+        "more liek hitlernecks amirite like heil beau kitteredge god im so sick of those fucking bigots",
+        "more like that-first-championship-was-a-fluke-necks",
+        "more like kainecks go kai ur #1 bro keep grindin baby"
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "larberg"
+      ],
+      "responses": [
+        "chris larberg saved me from crippling debt with a hairbrained scheme that we pulled off in the nick of time!",
+        "chris larberg is the most kind and caring alumni PERIOD he's done things for roboape that NOBODY else would. I WILL RIDE OR DIE FOR CHRIS LARBERG",
+        "larbeg? chris larberg? the chris larberg? ha, back in the day we jsut called him 'the berg'",
+        "chis larberg got teeth you would not beleive",
+        "I am the best larberg brother"
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "your"
+      ],
+      "responses": [
+        "*your're"
+      ],
+      "frequency": [
+        0.75
+      ]
+    },
+    {
+      "keywords": [
+        "practice"
+      ],
+      "responses": [
+        "Practice is on the IM fields today, be there by 4:20 or you're smoked ;) - COACH ROBO APE"
+      ],
+      "frequency": [
+        0.4
+      ]
+    },
+    {
+      "keywords": [
+        "BP"
+      ],
+      "responses": [
+        "yeah BP im sure ready for a Buncha Planking",
+        "why do we play beer pong so much and suck so much at beer pong still",
+        "im picking freshmen up at the dorms at 8 pm for bp we're getting dinner first. yes im dating all the freshmen at the same time."
+      ],
+      "frequency": [
+        0.5
+      ]
+    },
+    {
+      "keywords": [
+        "dawson"
+      ],
+      "responses": [
+        "dawson peasant more like it"
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "thank you",
+        "thanks"
+      ],
+      "responses": [
+        "haha no prob bro anything for a bro we're bros, bros do this bro bro brooooooo",
+        "sheeesh geez it was nothing",
+        "you can shove that thank you right up ur butt"
+        "i love to help",
+        "doing the best i can",
+        "no thank you",
+        "NO, thank youuuu",
+        "   ur welcome  ヽ(´ー｀)ノ"
+      ],
+      "frequency": [
+        1
+      ]
+    },
+    {
+      "keywords": [
+        "caf"
+      ],
+      "responses": [
+        "(☞ﾟヮﾟ)☞ make sure to swipe in upperclassmen we can't eat unless in the caf like vampires",
+        "dibs",
+        "i can swipe 2 people into the caf"
+      ],
+      "frequency": [
+        0.8
+      ]
+    },
+    {
+      "keywords": [
+        "soaking"
+      ],
+      "responses": [
+        "we are all 'soaking' in freindship"
+      ],
+      "frequency": [
+        0.8
+      ]
+    },
+    {
+      "keywords": [
+        "suds"
+      ],
+      "responses": [
+        "SUDS SAID WHAT??? THESE 10 SNAPCHATS WILL SHOCK AND DISGUST YOU"
+      ],
+      "frequency": [
+        0.1
+      ]
+    },
+    {
+      "keywords": [
+        "joe"
+      ],
+      "responses": [
+        "i love joe i have the best joes ask around everyone knows how much i love joe",
+        "joe, aka 'the big kahuna' of ultiimate",
+        "send joe a snapchat joed1557 tell him what jams your joey yknow",
+        "..."
+      ],
+      "frequency": [
+        0.5
+      ]
+    },
+        {
+      "keywords": [
+        "booth"
+      ],
+      "responses": [
+        "booth? fuck that lets get a brewth thats shakespeare for buy me beer send it to sam",
+        "boof",
+        "nope no booth here just a htoob oh wait lemme turn that around haha I'm just playin guys haha it was a booth haha",
+        "studying together is just an excuse to gossip about how cool the freshmen are",
+        "i once found dbo in a booth, like IN THE BOOTH I sat down and the booth was moving beneath me it had to have been dbo",
+        "i got a booth its called life wake up sheeple",
+        "booths are great if you want a table and a bench you cant move",
+        "its called groupme not boothme fuck off"
+        "booth?"
+      ],
+      "frequency": [
+        0.5
       ]
     }
   ]
