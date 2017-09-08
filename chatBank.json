@@ -1,6 +1,5 @@
 {
-  "templates": [
-    {
+  "templates": [{
       "keywords": [
         "when is jpn"
       ],
@@ -65,7 +64,7 @@
     {
       "keywords": [
         "hey roboape",
-        "hey robo ape"
+        "hey robo ape",
         "yo roboape"
       ],
       "responses": [
