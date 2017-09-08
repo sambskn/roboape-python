@@ -16,12 +16,12 @@ def webhook():
   # We don't want to reply to ourselves!
 	if data['name'] != 'ROBO APE':
 	
-	#figure out what to send here
-	print("recieved msg " + msg)
-	msg = botlogic.getResponse(data)
-	send_message(msg)
+		#figure out what to send here
+		print("recieved msg " + msg)
+		msg = botlogic.getResponse(data)
+		send_message(msg)
 
-	return "ok", 200
+		return "ok", 200
 
 def send_message(msg):
 	url  = 'https://api.groupme.com/v3/bots/post'
