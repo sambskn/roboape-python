@@ -7,9 +7,7 @@ def getResponse(data):
 	with open('chatBank.json') as json_data:
 		chatBank = json.load(json_data)
 	message = data['text']
-	print(chatBank)
 	for template in chatBank['templates']:
-		print(template)
 		for keyword in template['keywords']:
 			if keyword in message.lower():
 				potentialResponses = template['responses']
