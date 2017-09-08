@@ -1,6 +1,5 @@
 {
-  "templates": [
-    {
+  "templates": [{
       "keywords": [
         "hey roboape",
         "yo roboape"
@@ -291,7 +290,7 @@
       "responses": [
         "haha no prob bro anything for a bro we're bros, bros do this bro bro brooooooo",
         "sheeesh geez it was nothing",
-        "you can shove that thank you right up ur butt"
+        "you can shove that thank you right up ur butt",
         "i love to help",
         "doing the best i can",
         "no thank you",
@@ -351,7 +350,7 @@
         0.5
       ]
     },
-        {
+    {
       "keywords": [
         "booth"
       ],
@@ -363,7 +362,7 @@
         "i once found dbo in a booth, like IN THE BOOTH I sat down and the booth was moving beneath me it had to have been dbo",
         "i got a booth its called life wake up sheeple",
         "booths are great if you want a table and a bench you cant move",
-        "its called groupme not boothme fuck off"
+        "its called groupme not boothme fuck off",
         "booth?"
       ],
       "frequency": [
