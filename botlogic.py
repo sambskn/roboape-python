@@ -12,9 +12,10 @@ def getResponse(data):
 			if keyword in message.lower():
 				#check if we are doing something special
 				if template['special'] == None:
+					return 'robo ape is smrt'
 					potentialResponses = template['responses']
 					if random.uniform(0, 1)<template['frequency'][0]:
 						return random.choice(potentialResponses)
 				else:
-					return 'you are some hot stuff'
+					return 'robo ape is dum ' + template['special']
 
