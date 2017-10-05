@@ -11,8 +11,8 @@ def getResponse(data):
 		for keyword in template['keywords']:
 			if keyword in message.lower():
 				#check if we are doing something special
-				for key in template.keys()
-					print(key)
+				if template['special']:
+					return 'wowza papi'
 					
 				potentialResponses = template['responses']
 				if random.uniform(0, 1)<template['frequency'][0]:
