@@ -13,9 +13,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -31,9 +29,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -46,9 +42,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -66,9 +60,7 @@
       "frequency": [
         0.6
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -84,9 +76,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -119,9 +109,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -138,9 +126,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -155,9 +141,7 @@
       "frequency": [
         0.5
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -170,9 +154,7 @@
       "frequency": [
         0.5
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -187,9 +169,7 @@
       "frequency": [
         0.25
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -203,9 +183,7 @@
       "frequency": [
         0.25
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -217,9 +195,7 @@
       "frequency": [
         0.25
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -231,9 +207,7 @@
       "frequency": [
         0.8
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -247,9 +221,7 @@
       "frequency": [
         0.9
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -261,9 +233,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -279,9 +249,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -297,9 +265,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -311,9 +277,7 @@
       "frequency": [
         0.5
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -325,9 +289,7 @@
       "frequency": [
         0.4
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -341,9 +303,7 @@
       "frequency": [
         0.5
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -355,9 +315,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -379,9 +337,7 @@
       "frequency": [
         1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -395,9 +351,7 @@
       "frequency": [
         0.8
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -409,9 +363,7 @@
       "frequency": [
         0.8
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -424,9 +376,7 @@
       "frequency": [
         0.3
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -440,9 +390,7 @@
       "frequency": [
         0.5
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -454,9 +402,7 @@
       "frequency": [
         0.3
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -471,9 +417,7 @@
       "frequency": [
         0.5
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -493,9 +437,7 @@
       "frequency": [
         0.1
       ],
-      "special": [
-        null
-      ]
+      "special": null
     },
     {
       "keywords": [
@@ -794,10 +736,7 @@
       "frequency": [
         1.0
       ],
-      "special": [
-        null
-      ]
-
+      "special": null
     }
   ]
 }
