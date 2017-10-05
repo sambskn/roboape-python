@@ -412,6 +412,20 @@
     },
     {
       "keywords": [
+        "psych eval"
+      ],
+      "responses": [
+        "preparing your evaluation . . . "
+      ],
+      "frequency": [
+        0.1
+      ],
+      "special": [
+        "personality"
+      ]
+    },
+    {
+      "keywords": [
         "advice",
         "fortune cookie",
         "truism"

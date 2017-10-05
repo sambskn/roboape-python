@@ -1,10 +1,7 @@
 import os
-import json
-import botlogic
-
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-
+import botlogic
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -15,7 +12,7 @@ def webhook():
 
   # We don't want to reply to ourselves!
 	if data['name'] != 'ROBO APE':
-	
+
 		#figure out what to send here
 		msg = botlogic.getResponse(data)
 		if msg:
