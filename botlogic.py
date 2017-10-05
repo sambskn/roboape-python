@@ -11,8 +11,8 @@ def getResponse(data):
 		for keyword in template['keywords']:
 			if keyword in message.lower():
 				#check if we are doing something special
-				if template['special']:
-					return 'special response'
+				if 'special' in template.keys()
+					return 'this message has special type: ' + template['special']
 				potentialResponses = template['responses']
 				if random.uniform(0, 1)<template['frequency'][0]:
 					return random.choice(potentialResponses)
