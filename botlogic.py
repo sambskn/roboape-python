@@ -24,7 +24,7 @@ def getResponse(data):
 						print('hey hey')
 						msgs = retrieval.getAllMessages(data['user_id'])
 						prepared = prepareForWatson(msgs)
-						watsonresults = getWatsonPersonalityData(input)
+						watsonresults = getWatsonPersonalityData(prepared)
 						print(watsonresults)
 						return 'ooh yeah lets see them results'
 					return 'robo ape has encountered and issue and needs to chill'
