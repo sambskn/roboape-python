@@ -71,16 +71,11 @@ def getAllMessages(user_ID=None):
 			if user_ID is None:
 				output.append(msg)
 			else:
-				print('this is the message')
-				print(msg)
-				print('this is the count')
-				print(count)
-				print('this is the total count')
-				print(totalCount)
 				if msg['user_id'] == user_ID:
 					output.append(msg)
 			count += 1
-		before_id = int(before_id) - 100
+			before_id = msg['id']
+		#before_id = int(before_id) - 100
 		params = {
 			'before_id': before_id,
 			'limit': 100
