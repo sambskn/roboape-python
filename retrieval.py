@@ -81,5 +81,5 @@ def getAllMessages(user_ID=None):
 			'before_id': before_id,
 			'limit': 100
 		}
-		msgs = get(requests.get(URL + '/groups/' + group_id + '/messages' + TOKEN, params=params))
+		msgs = get(requests.get(URL + '/groups/' + group_id + '/messages' + TOKEN, params=params))['messages']
 	return output
