@@ -9,6 +9,7 @@ BOT_ID = os.getenv('GROUPME_BOT_ID')
 
 def get(response):
 	"""Get the resposne portion of the JSON object"""
+	print(response)
 	if response.json()['meta']['code'] != 200:
 		print('Error retrieving response')
 		print(response.json())
