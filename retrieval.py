@@ -4,7 +4,7 @@ import requests
 
 
 URL = 'https://api.groupme.com/v3'
-TOKEN = os.getenv('GROUPME_TOKEN')
+TOKEN = '?token=' + os.getenv('GROUPME_TOKEN')
 BOT_ID = os.getenv('GROUPME_BOT_ID')
 
 def get(response):
