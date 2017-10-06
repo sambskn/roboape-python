@@ -21,6 +21,7 @@ def getResponse(data):
 				else:
 					if template['special'] == 'personality':
 						#TODO Make a watson call here
+						print('hey hey')
 						msgs = retrieval.getAllMessages(data['user_id'])
 						prepared = prepareForWatson(msgs)
 						watsonresults = getWatsonPersonalityData(input)
