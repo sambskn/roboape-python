@@ -521,9 +521,7 @@
       "frequency": [
         0.1
       ],
-      "special": [
-        "personality"
-      ]
+      "special": "personality"
     },
     {
       "keywords": [
