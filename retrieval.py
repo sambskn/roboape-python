@@ -58,7 +58,9 @@ def getAllMessages(user_ID=None):
 	group_id = getGroupID()
 	group = get(requests.get(URL + '/groups/:' + group_id + TOKEN))
 	totalCount = group['messages']['count']
+	print('starting count goal is ' + totalCount)
 	before_id = group['messages']['last_message_id'] #might need a '-1' here
+	print('starting before_id = ' + before_id)
 	output = []
 	params = {
 		'before_id': before_id,
