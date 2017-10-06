@@ -25,6 +25,7 @@ def getResponse(data):
 						msgs = retrieval.getAllMessages(data['user_id'])
 						prepared = prepareForWatson(msgs)
 						print('output prepared for watson')
+						return prepared
 						watsonresults = getWatsonPersonalityData(prepared)
 						print(watsonresults)
 						return 'ooh yeah lets see them results'
