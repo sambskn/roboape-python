@@ -27,7 +27,7 @@ def getResponse(data):
 						watsonresults = getWatsonPersonalityData(prepared)
 						print(watsonresults)
 						return 'ooh yeah lets see them results'
-					return 'robo ape has encountered and issue and needs to chill'
+					return 'robo ape has encountered an issue and needs to chill error msg:' + template['special']
 
 def prepareForWatson(msgs):
 	"""
