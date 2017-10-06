@@ -66,21 +66,15 @@ def getAllMessages(user_ID=None):
 	}
 	count = 0
 	msgs = get(requests.get(URL + '/groups/' + group_id + '/messages' + TOKEN, params=params))['messages']
-	print('user id val is')
-	print(user_ID)
-	print('here are the messages')
-	print(msgs)
 	while count < totalCount:
 		for msg in msgs:
 			if user_ID is None:
 				output.append(msg)
 			else:
-				print('Here is the message')
-				print(msg)
 				if msg['user_id'] == user_ID:
 					output.append(msg)
 			count += 1
-		before_id = before_id - 100
+		before_id = int(before_id) - 100
 		params = {
 			'before_id': before_id,
 			'limit': 100
