@@ -1,6 +1,9 @@
 import os
 import json
 import random
+from watson_developer_cloud import PersonalityInsightsV3
+import retrieval
+from collections import Counter
 
 def getResponse(data):
 	#see groupme API for details about data JSON object
@@ -16,5 +19,42 @@ def getResponse(data):
 					if random.uniform(0, 1)<template['frequency'][0]:
 						return random.choice(potentialResponses)
 				else:
-					return 'good job'
+					if template['special'] == 'personality':
+						#TODO Make a watson call here
+						msgs = retrieval.getAllMessages(data['user_id'])
+						prepared = prepareForWatson(msgs)
+						watsonresults = getWatsonPersonalityData(input)
+						print(watsonresults)
+						return 'ooh yeah lets see them results'
+					return 'robo ape has encountered and issue and needs to chill'
 
+def prepareForWatson(msgs):
+	"""
+	preparing suitable data to be sent to the Watson API
+	reccomended amount for maxium precison is 3000 words
+	"""
+	MAX_WORDS = 3000
+	output= []
+	wordCount = 0
+	wordsInMsg = 0
+	for msg in msgs:
+		if wordCount<3000:
+			wordsInMsg = Counter(msg['text'].split())
+			output.append(msg['txt'])
+			wordCount += wordsInMsg
+		else:
+			break
+		
+	output = ''.join(output)
+	return output
+
+def getWatsonPersonalityData(input):
+	psycheval = PersonalityInsightsV3(
+		version='2016-10-20',
+		username=os.getenv('WATSON_PERSON_USERNAME'),
+		password=os.getenv('WATSON_PERSON_PASSWORD')
+	)
+	return psycheval.profile(input)
+
+
+	
