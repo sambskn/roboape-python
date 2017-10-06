@@ -71,6 +71,8 @@ def getAllMessages(user_ID=None):
 			if user_ID is None:
 				output.append(msg)
 			else:
+				print('this is the message')
+				print(msg)
 				if msg['user_id'] == user_ID:
 					output.append(msg)
 			count += 1
