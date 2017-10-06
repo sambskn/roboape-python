@@ -12,8 +12,7 @@ def get(response):
 	status = response.status_code
 	if status != 200:
 		print('Error retrieving response')
-		print(response.json())
-		return
+		return None
 	return response.json()['response']
 
 def getGroupMembers():
@@ -67,6 +66,8 @@ def getAllMessages(user_ID=None):
 	}
 	count = 0
 	msgs = get(requests.get(URL + '/groups/' + group_id + '/messages' + TOKEN, params=params))['messages']
+	if msgs is None:
+		return output
 	while count < totalCount:
 		for msg in msgs:
 			if user_ID is None:
@@ -82,4 +83,6 @@ def getAllMessages(user_ID=None):
 			'limit': 100
 		}
 		msgs = get(requests.get(URL + '/groups/' + group_id + '/messages' + TOKEN, params=params))['messages']
+		if msgs is None:
+			return output
 	return output
