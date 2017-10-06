@@ -56,7 +56,7 @@ def getAllMessages(user_ID=None):
 	with the optional check to only get ones matching the given user_id
 	"""
 	group_id = getGroupID()
-	group = get(requests.get(URL + '/groups/:' + group_id + TOKEN))
+	group = get(requests.get(URL + '/groups/' + group_id + TOKEN))
 	totalCount = group['messages']['count']
 	print('starting count goal is ' + totalCount)
 	before_id = group['messages']['last_message_id'] #might need a '-1' here
