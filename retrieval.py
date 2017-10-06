@@ -75,6 +75,8 @@ def getAllMessages(user_ID=None):
 				print(msg)
 				print('this is the count')
 				print(count)
+				print('this is the total count')
+				print(totalCount)
 				if msg['user_id'] == user_ID:
 					output.append(msg)
 			count += 1
