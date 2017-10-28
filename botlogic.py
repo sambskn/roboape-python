@@ -45,7 +45,7 @@ def prepareForWatson(msgs):
 		if wordCount<3000:
 			wordsInMsg = Counter(msg['text'].split())
 			output.append(msg['text'])
-			wordCount += wordsInMsg
+			wordCount = wordCount + wordsInMsg
 		else:
 			break
 	output = ''.join(output)
