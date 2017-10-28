@@ -72,6 +72,7 @@ def getAllMessages(user_ID=None):
 		for msg in msgs:
 			if user_ID is None:
 				output.append(msg)
+				output.append(' ')
 			else:
 				if msg['user_id'] == user_ID:
 					output.append(msg)
