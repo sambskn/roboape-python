@@ -34,7 +34,7 @@ def getResponse(data):
 						output = "ROBO APE HAS DETERMINED YOU HAVE THE FOLLOWING NEEDS:\n"
 						for need in watsonresults['needs']:
 							if (need['percentile']>=0.60):
-								output.append(need['name'] + '\n')
+								output = output + need['name'] + '\n')
 							
 						return output
 
