@@ -43,11 +43,14 @@ def getResponse(data):
 						output.append(outputAddition)
 						#lets do each of the "big 5"
 						for big5Trait in watsonresults['personality']:
-							outputAddition = "ROBO APE HAS LOOKED AT YOUR '" + big5Trait['name'] + "' AND HAS DETERMINED YOU HAVE:"
+							outputAddition = "ROBO APE HAS LOOKED AT YOUR '" + big5Trait['name'] + "' AND HAS DETERMINED YOU HAVE: \n"
+							addedChild = 0
 							for child in big5Trait['children']:
 								if (child['percentile']>=0.50):
 									outputAddition = outputAddition + child['name'] + '\n'
-							output.append(outputAddition)
+									addedChild = 1
+							if(addedChild==1):
+								output.append(outputAddition)
 							
 						return random.choice(output)
 
