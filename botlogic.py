@@ -27,7 +27,6 @@ def getResponse(data):
 						print('output prepared for watson')
 						print('prepared data')
 						print(prepared)
-						return prepared
 						watsonresults = getWatsonPersonalityData(prepared)
 						print(watsonresults)
 						return 'oohyeah lets see results'
