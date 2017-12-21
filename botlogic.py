@@ -28,15 +28,28 @@ def getResponse(data):
 						print('prepared data')
 						print(prepared)
 						watsonresults = getWatsonPersonalityData(prepared)
-						print(watsonresults)
-						
-						#watson results looking good
-						output = "ROBO APE HAS DETERMINED YOU HAVE THE FOLLOWING NEEDS:\n"
+						output = []
+						#add needs response
+						outputAddition = "ROBO APE HAS DETERMINED YOU HAVE THE FOLLOWING NEEDS:\n"
 						for need in watsonresults['needs']:
 							if (need['percentile']>=0.60):
-								output = output + need['name'] + '\n'
+								outputAddition = outputAddition + need['name'] + '\n'
+						output.append(outputAddition)
+						#add personality traits
+						outputAddition = "ROBO APE HAS DETERMINED YOU HAVE THE FOLLOWING VALUES:\n"
+						for value in watsonresults['values']:
+							if (value['percentile']>=0.50):
+								outputAddition = outputAddition + value['name'] + '\n'
+						output.append(outputAddition)
+						#lets do each of the "big 5"
+						for big5Trait in watsonresults['personality']:
+							outputAddition = "ROBO APE HAS LOOKED AT YOUR '" + big5Trait['name'] + "' AND HAS DETERMINED YOU HAVE:"
+							for child in big5Trait['children']:
+								if (child['percentile']>=0.50):
+								outputAddition = outputAddition + child['name'] + '\n'
+							output.append(outputAddition)
 							
-						return output
+						return random.choice(output)
 
 
 
