@@ -511,6 +511,42 @@
     },
     {
       "keywords": [
+        "i love you"
+      ],
+      "responses": [
+        "we can never be together",
+        "forever? forever ever?",
+        "lol nice",
+        "back atcha ;)",
+        "im in love with the game"
+
+      ],
+      "frequency": [
+        0.9
+      ],
+      "special": null
+    },
+    {
+      "keywords": [
+        "fill this out",
+        "google sheet",
+        "ride sheet"
+      ],
+      "responses": [
+        "appreciate ehow fillign out spreadsheets makes you a better employee for the capitalist hellscape that awaits you after graduation lol",
+        "ultimate? ha\n i joined the apes of wrath to fill out spreadsheets",
+        "don't do it",
+        "alternativly, use a PIECE OF PAPER to write what you feel damn millenials",
+        "do you guys ever journal about how you feel?",
+        "all these spreadsheets but im trying to spread your sheets ya dig?\n \nROBO APE TRYNA FUCK"
+      ],
+      "frequency": [
+        0.5
+      ],
+      "special": null
+    },
+    {
+      "keywords": [
         "psych eval"
       ],
       "responses": [
