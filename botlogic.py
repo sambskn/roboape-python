@@ -46,7 +46,7 @@ def getResponse(data):
 							outputAddition = "ROBO APE HAS LOOKED AT YOUR '" + big5Trait['name'] + "' AND HAS DETERMINED YOU HAVE:"
 							for child in big5Trait['children']:
 								if (child['percentile']>=0.50):
-								outputAddition = outputAddition + child['name'] + '\n'
+									outputAddition = outputAddition + child['name'] + '\n'
 							output.append(outputAddition)
 							
 						return random.choice(output)
