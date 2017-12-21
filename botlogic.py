@@ -29,8 +29,18 @@ def getResponse(data):
 						print(prepared)
 						watsonresults = getWatsonPersonalityData(prepared)
 						print(watsonresults)
-						return 'oohyeah lets see results'
-					return template['special']
+						
+						#watson results looking good
+						output = "ROBO APE HAS DETERMINED YOU HAVE THE FOLLOWING NEEDS:\n"
+						for need in watsonresults['needs']:
+							if (need['percentile']>=0.60):
+								output.append(need['name'] + '\n')
+							
+						return output
+
+
+
+					
 
 def prepareForWatson(msgs):
 	"""
