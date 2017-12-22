@@ -84,8 +84,9 @@ def generateMarkovMsg(msgs):
 						chain[word] = [words[words.index(word)+1]]
 				else:
 					chain[word] = [words[words.index(word)+1]] 
-				
-
+	print(initial)			
+	print(terminal)
+	print(chain)
 	output = ""
 	word = random.choice(initial)
 	while word not in terminal:
