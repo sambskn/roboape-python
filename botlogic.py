@@ -78,8 +78,11 @@ def generateMarkovMsg(msgs):
 				if words.index(word)==0:
 					initial.append(word)
 				if(word in chain):
+					print("entry update")
+					print(chain[word])
 					chain[word] = chain[word].append(words[words.index(word)+1])
 				else:
+					print("new entry")
 					print(words)
 					print(words.index(word)+1)
 					chain[word] = [words[words.index(word)+1]] 
