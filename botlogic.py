@@ -71,7 +71,7 @@ def generateMarkovMsg(msgs):
 		words = msg['text'].split(' ')
 		for word in words:
 			#check if terminal
-			if words.index(word)==len(words):
+			if words.index(word)==(len(words)-1):
 				terminal.append(word)
 			else:
 				#check if initial
