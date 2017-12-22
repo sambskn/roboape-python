@@ -80,7 +80,7 @@ def generateMarkovMsg(msgs):
 				if(word in chain):
 					chain[word] = chain[word].append(words[words.index(word)+1])
 				else:
-					print("words: " + words)
+					print(words)
 					print(words.index(word)+1)
 					chain[word] = [words[words.index(word)+1]] 
 				
