@@ -77,7 +77,11 @@ def generateMarkovMsg(msgs):
 				#check if initial
 				if words.index(word)==0:
 					initial.append(word)
-				chain[word] = chain[word].append(words[words.index(word)+1])
+				if(word in chain):
+					chain[word] = chain[word].append(words[words.index(word)+1])
+				else:
+					chain[word] = [words[words.index(word)+1]] 
+				
 
 	output = ""
 	word = random.choice(initial)
