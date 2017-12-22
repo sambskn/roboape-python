@@ -53,7 +53,41 @@ def getResponse(data):
 								output.append(outputAddition)
 							
 						return random.choice(output)
+					if template['special']=="markov":
+						msgs = retrieval.getAllMessages(data['user_id'])
+						output = generateMarkovMsg(msgs)
+						print(output)
+						return output
 
+
+def generateMarkovMsg(msgs):
+	"""
+	makes a basic markov chain and returns a generated msg
+	"""
+	initial = []
+	terminal = []
+	chain = {}
+
+	for msg in msgs:
+		words = msg['text'].split(' ')
+		for word in words:
+			#check if terminal
+			if words.index(word)==len(words):
+				terminal.append(word)
+			else:
+				#check if initial
+				if words.index(word)==0:
+					initial.append(word)
+				chain[word] = chain[word].append(words[words.index(word)+1])
+
+	output = ""
+	word = random.choice(initial)
+	while word not in terminal:
+		output = output + " " + word
+		word = random.choice(chain[word])
+	output =  output + " " + word
+
+	return output
 
 
 					

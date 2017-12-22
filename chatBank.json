@@ -528,6 +528,30 @@
     },
     {
       "keywords": [
+        "talk like me"
+      ],
+      "responses": [
+        "i will talk just like you"
+      ],
+      "frequency": [
+        1
+      ],
+      "special": "markov"
+    },
+    {
+      "keywords": [
+        "psych eval"
+      ],
+      "responses": [
+        "preparing your evaluation . . . "
+      ],
+      "frequency": [
+        0.1
+      ],
+      "special": "personality"
+    },
+    {
+      "keywords": [
         "fill this out",
         "google sheet",
         "ride sheet"
