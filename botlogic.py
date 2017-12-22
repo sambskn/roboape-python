@@ -59,7 +59,6 @@ def getResponse(data):
 						print(output)
 						return output
 
-
 def generateMarkovMsg(msgs):
 	"""
 	makes a basic markov chain and returns a generated msg
