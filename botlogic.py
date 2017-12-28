@@ -93,6 +93,7 @@ def generateMarkovMsg(msgs):
 	while word not in terminal:
 		output = output + " " + word
 		print(output)
+		print(chain[word])
 		word = random.choice(chain[word])
 	output =  output + " " + word
 
