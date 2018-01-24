@@ -43,7 +43,7 @@ def getResponse(data):
 						output.append(outputAddition)
 						#lets do each of the "big 5"
 						for big5Trait in watsonresults['personality']:
-							outputAddition = "ROBO APE HAS LOOKED AT YOUR '" + big5Trait['name'] + "' AND HAS DETERMINED YOU HAVE: \n"
+							outputAddition = "ROBO APE HAS LOOKED AT YOUR TRAIT: '" + big5Trait['name'] + "' AND HAS DETERMINED IT HAS THE FOLLOWING CHARACTERISTICS: \n"
 							addedChild = 0
 							for child in big5Trait['children']:
 								if (child['percentile']>=0.50):
@@ -95,6 +95,8 @@ def generateMarkovMsg(msgs):
 		print(output)
 		print(chain[word])
 		word = random.choice(chain[word])
+	#if it is in terminal, check if it has anything else in the chain
+	#this just doesn't really work ugh
 	output =  output + " " + word
 
 	return output
