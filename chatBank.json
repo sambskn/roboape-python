@@ -20,11 +20,17 @@
         "dice roll",
         "roll a die",
         "on a 1",
+        "on a one",
         "on a 2",
+        "on a two",
         "on a 3",
+        "on a three",
         "on a 4",
+        "on a four",
         "on a 5",
-        "on a 6"
+        "on a five",
+        "on a 6",
+        "on a six"
       ],
       "responses": [
         "1",
