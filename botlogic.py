@@ -5,6 +5,8 @@ from collections import Counter
 from watson_developer_cloud import PersonalityInsightsV3
 import retrieval
 
+
+
 def getResponse(data):
 	#see groupme API for details about dat JSON object
 	with open('chatBank.json') as json_data:
@@ -20,9 +22,12 @@ def getResponse(data):
 						return random.choice(potentialResponses)
 				else:
 					if template['special'] == 'personality':
-						#TODO Make a Watson Call
+						#Make a Watson Call
 						print('watson process started')
-						msgs = retrieval.getAllMessages(data['user_id'])
+						#here I told the thing to look at max 400 msgs from the user
+						#watson docs say you hit max accuracy with ~3000 words 
+						#so i chose 400 as a guess assuming that will get us kinda in the range of 3000
+						msgs = retrieval.getMessages(data['user_id'], 400)
 						prepared = prepareForWatson(msgs)
 						print('output prepared for watson')
 						print('prepared data')
@@ -54,7 +59,7 @@ def getResponse(data):
 							
 						return random.choice(output)
 					if template['special']=="markov":
-						msgs = retrieval.getAllMessages(data['user_id'])
+						msgs = retrieval.getMessages(data['user_id'], 400)
 						output = generateMarkovMsg(msgs)
 						print(output)
 						return output

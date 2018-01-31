@@ -50,10 +50,12 @@ def getNumFavorited(msg):
 	num_favorited = msg['favorited_by']
 	return len(num_favorited)
 
-def getAllMessages(user_ID=None):
+def getMessages(user_ID=None, maxMsgs=None):
 	"""
 	this will return a list of msg dicts, 
 	with the optional check to only get ones matching the given user_id
+	and the optional max number of messages to receive
+	(to avoid timeout use the max number of messages option)
 	"""
 	group_id = getGroupID()
 	group = get(requests.get(URL + '/groups/' + group_id + TOKEN))
@@ -65,10 +67,15 @@ def getAllMessages(user_ID=None):
 		'limit': 100
 	}
 	count = 0
+	userMsgCount = 0
+	if maxMsgs is None:
+		maxMsgs = 100000
+		#i picked that number arbitrarily
+		#let me know if that was a problem
 	msgs = get(requests.get(URL + '/groups/' + group_id + '/messages' + TOKEN, params=params))['messages']
 	if msgs is None:
 		return output
-	while count < totalCount:
+	while count < totalCount and userMsgCount < maxMsgs:
 		for msg in msgs:
 			if user_ID is None:
 				output.append(msg)
@@ -76,6 +83,7 @@ def getAllMessages(user_ID=None):
 			else:
 				if msg['user_id'] == user_ID:
 					output.append(msg)
+					userMsgCount += 1
 			count += 1
 			before_id = msg['id']
 		#before_id = int(before_id) - 100
