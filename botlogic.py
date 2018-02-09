@@ -28,6 +28,7 @@ def getResponse(data):
 						#watson docs say you hit max accuracy with ~3000 words 
 						#so i chose 400 as a guess assuming that will get us kinda in the range of 3000
 						msgs = retrieval.getMessages(data['user_id'], 400)
+						print(msgs)
 						prepared = prepareForWatson(msgs)
 						print('output prepared for watson')
 						print('prepared data')
