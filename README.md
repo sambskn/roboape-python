@@ -1,6 +1,6 @@
 # roboape-python
 
-This is a simple bot written in Python3 that will post messages to a GroupMe group. For each message posted in the group the bot is assgined to, the bot will parse the message, compare it to keywords in it's message bank, then randomly select on of theassoicited responses form it's message bank. It will also check the frequency value associted with the keyword, and as a result will only post the response with some regularity relating to frequency. 
+This is a simple bot written in Python3 that will post messages to a GroupMe group. For each message posted in the group the bot is assgined to, the bot will parse the message, compare it to keywords in it's message bank, then randomly select on of the assoicited responses form it's message bank. It will also check the frequency value associted with the keyword, and as a result will only post the response with some regularity relating to frequency. 
 
 Right now there's a bunch of dumb jokes that probably only make sense to my college ultiamte frisbee team in the json file containing the message bank, but you could customize it.
 
