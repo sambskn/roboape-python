@@ -4,11 +4,11 @@
         "when is jpn"
       ],
       "responses": [
-        "oct 21-22 should been known",
-        "oct 21-22",
-        "oct 21-22 bro cmon",
-        "oct 21-22",
-        "~ask again later~ jk oct 21-22"
+        "oct 5-6 should been known",
+        "oct 5-6",
+        "oct 5-6 bro cmon",
+        "oct 5-6",
+        "~ask again later~ jk oct 5-6"
       ],
       "frequency": [
         1
@@ -91,7 +91,9 @@
         "GET THE ROBO APE BODY - 3x10 Single Leg Squirt, Kettlebell Swings to failure, plank for 8 hours",
         "get so swole you can't breathe",
         "i love the gym it has water",
-        "good workout idea - yell until someone stops you"
+        "good workout idea - yell until someone stops you",
+        "my form is impeccable",
+        "bro im so jacked touch my inner thigh thats alllll squirts"
       ],
       "frequency": [
         0.6
@@ -487,7 +489,7 @@
       ],
       "responses": [
         "i love joe i have the best joes ask around everyone knows how much i love joe",
-        "joe, aka 'the big kahuna' of ultiimate",
+        "joe, aka 'the big kahuna' of ultimate",
         "send joe a snapchat joed1557 tell him what jams your joey yknow",
         "i have a joe on my desk and it's much bigger than yours",
         "there is no collusion between robo ape and joe",
@@ -911,6 +913,188 @@
       ],
       "frequency": [
         1
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "nathan"
+      ],
+      "responses": [
+        "haha good one nathan"
+      ],
+      "frequency": [
+        0.25
+      ],
+      "special": null
+    }
+    {
+      "keywords": [
+        "scotty",
+      ],
+      "responses": [
+        "scotty wishes he had another year of eligibilty"
+      ],
+      "frequency": [
+        0.5
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "CJ"
+      ],
+      "responses": [
+        "they need to remake NCAA football so i can play as CJ, my favorite OU safety"
+      ],
+      "frequency": [
+        0.75
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "jpn"
+      ],
+      "responses": [
+        "come out to JPN and play your favorite alumni oct. 5-6th",
+        "back in my day JPN stood for joe's porn network"
+      ],
+      "frequency": [
+        1
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "nathan"
+      ],
+      "responses": [
+        "haha good one nathan"
+      ],
+      "frequency": [
+        0.25
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "matt",
+        "allan"
+      ],
+      "responses": [
+        "matt allan is proof that frisbee is a frat",
+        "haha fuck hersheypark !",
+        "matt allen is the hottiest and messiest of the hot messes"
+      ],
+      "frequency": [
+        0.25
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "hey"
+      ],
+      "responses": [
+        "hey go blues"
+      ],
+      "frequency": [
+        0.1
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "JD"
+      ],
+      "responses": [
+        "NOT A PULLER"
+      ],
+      "frequency": [
+        0.5
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "texas tech",
+        "red raiders",
+        "tech"
+      ],
+      "responses": [
+        "raider rash on three!"
+      ],
+      "frequency": [
+        1
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "turkey"
+      ],
+      "responses": [
+        "hey did you guys know turkey is left-handed?",
+        "back in my day they'd beat the demon out of you if you were left-handed"
+      ],
+      "frequency": [
+        0.5
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "also"
+      ],
+      "responses": [
+        "selling gameworn roboape cleats $10000 venmo @joedalsanto",
+        "everyone forgets about roboape :( no one visits his cave :(",
+        "if joint leadership is so joint why dont they smoke everyday??",
+        "i heard jonald is getting a tattoo if aaron shows up to BP",
+      ],
+      "frequency": [
+        0.1
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "collin",
+        "austin",
+        "captain"
+      ],
+      "responses": [
+        "i didn't vote for him"
+      ],
+      "frequency": [
+        0.1
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "jerry"
+      ],
+      "responses": [
+        "hey fuck you"
+      ],
+      "frequency": [
+        0.2
+      ],
+      "special": null
+    }
+      {
+      "keywords": [
+        "up for grabs",
+        "anyone leave?",
+        "someone leave?"
+      ],
+      "responses": [
+        "dibs"
+      ],
+      "frequency": [
+        0.3
       ],
       "special": null
     }
