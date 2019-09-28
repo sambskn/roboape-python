@@ -927,10 +927,10 @@
         0.25
       ],
       "special": null
-    }
+    },
     {
       "keywords": [
-        "scotty",
+        "scotty"
       ],
       "responses": [
         "scotty wishes he had another year of eligibilty"
@@ -939,7 +939,7 @@
         0.5
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "CJ"
@@ -951,7 +951,7 @@
         0.75
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "jpn"
@@ -964,7 +964,7 @@
         1
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "nathan"
@@ -976,7 +976,7 @@
         0.25
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "matt",
@@ -991,7 +991,7 @@
         0.25
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "hey"
@@ -1003,7 +1003,7 @@
         0.1
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "JD"
@@ -1015,7 +1015,7 @@
         0.5
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "texas tech",
@@ -1029,7 +1029,7 @@
         1
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "turkey"
@@ -1042,7 +1042,7 @@
         0.5
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "also"
@@ -1051,13 +1051,13 @@
         "selling gameworn roboape cleats $10000 venmo @joedalsanto",
         "everyone forgets about roboape :( no one visits his cave :(",
         "if joint leadership is so joint why dont they smoke everyday??",
-        "i heard jonald is getting a tattoo if aaron shows up to BP",
+        "i heard jonald is getting a tattoo if aaron shows up to BP"
       ],
       "frequency": [
         0.1
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "collin",
@@ -1071,7 +1071,7 @@
         0.1
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "jerry"
@@ -1083,7 +1083,7 @@
         0.2
       ],
       "special": null
-    }
+    },
       {
       "keywords": [
         "up for grabs",
