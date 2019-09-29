@@ -971,18 +971,6 @@
     },
       {
       "keywords": [
-        "nathan"
-      ],
-      "responses": [
-        "haha good one nathan"
-      ],
-      "frequency": [
-        0.25
-      ],
-      "special": null
-    },
-      {
-      "keywords": [
         "matt",
         "allan"
       ],
@@ -1016,7 +1004,7 @@
         "NOT A PULLER"
       ],
       "frequency": [
-        0.5
+        0.3
       ],
       "special": null
     },
@@ -1030,7 +1018,7 @@
         "raider rash on three!"
       ],
       "frequency": [
-        1
+        0.5
       ],
       "special": null
     },
@@ -1043,7 +1031,7 @@
         "back in my day they'd beat the demon out of you if you were left-handed"
       ],
       "frequency": [
-        0.5
+        0.4
       ],
       "special": null
     },
