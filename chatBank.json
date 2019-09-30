@@ -1,5 +1,24 @@
 {
-  "templates": [{
+  "templates": [
+    {
+      "keywords": [
+        "robo ape version number",
+        "robo ape update",
+        "new roboape"
+      ],
+      "responses": [
+        "fuck you",
+        "robo ape is *CONSTANTLY EVOLVING*",
+        "robo ape - next updated tommorrow :)",
+        "robo ape made in a government lab, no version number, only oppression under the tyranny of bureaucracy",
+        "robo ape™ version 69 © deez nuts lol"
+      ],
+      "frequency": [
+        0.5
+      ],
+      "special": null
+    },
+    {
       "keywords": [
         "when is jpn"
       ],
