@@ -537,6 +537,7 @@
         "i got a booth its called life wake up sheeple",
         "booths are great if you want a table and a bench you cant move",
         "its called groupme not boothme fuck off",
+        "roboapes coding was once merged with a virtual manifestation of john wilkes booth. im still recovering :'(",
         "booth?"
       ],
       "frequency": [
@@ -593,7 +594,7 @@
       ],
       "responses": [
         "appreciate how filling out spreadsheets makes you a better employee for the capitalist hellscape that awaits you after graduation lol",
-        "ultimate? ha\n i joined the apes of wrath to fill out spreadsheets",
+        "ultimate? ha i joined the apes of wrath to fill out spreadsheets",
         "don't do it",
         "alternativly, use a PIECE OF PAPER to write what you feel damn millenials",
         "no spreadsheets on robo ape's mattress",
@@ -939,27 +940,17 @@
       ],
       "special": null
     },
-      {
-      "keywords": [
-        "nathan"
-      ],
-      "responses": [
-        "haha good one nathan"
-      ],
-      "frequency": [
-        0.25
-      ],
-      "special": null
-    },
     {
       "keywords": [
         "scotty"
       ],
       "responses": [
-        "scotty wishes he had another year of eligibilty"
+        "scotty wishes he had another year of eligibilty",
+        "2nd team all region??",
+        "boomtown? more like boomertown cuz scotty is SO OLD haha ha"
       ],
       "frequency": [
-        0.5
+        0.3
       ],
       "special": null
     },
@@ -968,10 +959,11 @@
         "CJ"
       ],
       "responses": [
-        "they need to remake NCAA football so i can play as CJ, my favorite OU safety"
+        "they need to remake NCAA football so i can play as CJ, my favorite OU safety",
+        "the ou safety depth chart is looking pretty open this year i heard"
       ],
       "frequency": [
-        0.75
+        0.2
       ],
       "special": null
     },
@@ -984,7 +976,7 @@
         "back in my day JPN stood for joe's porn network"
       ],
       "frequency": [
-        1
+        0.3
       ],
       "special": null
     },
@@ -996,10 +988,11 @@
       "responses": [
         "matt allan is proof that frisbee is a frat",
         "haha fuck hersheypark !",
-        "matt allen is the hottiest and messiest of the hot messes"
+        "matt allan is the hottiest and messiest of the hot messes",
+        "if matt allan is captain whose the joke of the team now???"
       ],
       "frequency": [
-        0.25
+        0.2
       ],
       "special": null
     },
@@ -1017,13 +1010,14 @@
     },
       {
       "keywords": [
-        "JD"
+        "JD",
+        "ingendorf"
       ],
       "responses": [
-        "NOT A PULLER"
+        "mr ingendorf will always be a captain in our hearts. captain OB"
       ],
       "frequency": [
-        0.3
+        0.2
       ],
       "special": null
     },
@@ -1034,7 +1028,7 @@
         "tech"
       ],
       "responses": [
-        "raider rash on three!"
+        "raider rash on three"
       ],
       "frequency": [
         0.5
@@ -1050,7 +1044,7 @@
         "back in my day they'd beat the demon out of you if you were left-handed"
       ],
       "frequency": [
-        0.4
+        0.2
       ],
       "special": null
     },
@@ -1061,8 +1055,7 @@
       "responses": [
         "selling gameworn roboape cleats $10000 venmo @joedalsanto",
         "everyone forgets about roboape :( no one visits his cave :(",
-        "if joint leadership is so joint why dont they smoke everyday??",
-        "i heard jonald is getting a tattoo if aaron shows up to BP"
+        "if joint leadership is so joint why dont they smoke everyday??"
       ],
       "frequency": [
         0.1
@@ -1071,8 +1064,9 @@
     },
       {
       "keywords": [
-        "collin",
-        "austin",
+        "bluth",
+        "mallan",
+        "brian",
         "captain"
       ],
       "responses": [
@@ -1091,21 +1085,110 @@
         "hey fuck you"
       ],
       "frequency": [
-        0.2
+        0.1
       ],
       "special": null
     },
       {
       "keywords": [
         "up for grabs",
-        "anyone leave?",
-        "someone leave?"
+        "anyone leave this",
+        "someone leave this"
       ],
       "responses": [
         "dibs"
       ],
       "frequency": [
         0.3
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "covid",
+        "covid-19",
+        "coronavirus"
+      ],
+      "responses": [
+        "covid-19? more like no-bid-19 cuz were not making nattys this year",
+        "covid-19? more like yo-jid-19 cuz i left my cleats in JDs car and he won't give them back :("
+      ],
+      "frequency": [
+        0.5
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "harper"
+      ],
+      "responses": [
+        "the reason harper never takes his cleats off is because he has hooves, hidden inside them",
+        "guys i promise harper is part goat. it explains a lot, doesn't it?? his agility, his skill, his abnormal number of legs",
+        "harper once met migos and lil jon at a wafflehouse but he doesn't like to brag"
+      ],
+      "frequency": [
+        0.3
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "vote",
+        "election"
+      ],
+      "responses": [
+        "THIS IS ROBOAPE. PLEEASE VOTE FOR ME AND ILL LET U HOLD THE INEVITABLE TECHNOLOGICAL SINGULARITY",
+        "soon robots will be ur masters anyways. might as well pick me to lessen the sting"
+      ],
+      "frequency": [
+        0.3
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "austin"
+      ],
+      "responses": [
+        "won't be long now, austin's moustache will fall off and he'll have to find a new one",
+        "id like to touch austin's inner thigh",
+        "haha go-ul-od one, get it??"
+      ],
+      "frequency": [
+        0.3
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "tallin",
+        "collin"
+      ],
+      "responses": [
+        "collin? tollin? more like ballin'",
+        "collin once yoinked the frisbee from THE brodie smith from across the nation with his mr fantastic arms",
+        "ya gotta let the boys play!!"
+      ],
+      "frequency": [
+        0.3
+      ],
+      "special": null
+    },
+      {
+      "keywords": [
+        "jeff probst",
+        "probst"
+      ],
+      "responses": [
+        "sometimes roboape wakes up on the wrong side of my json chatbank and i just think...fuck jeff probst",
+        "my love for jefferey probst knows no bounds. i meet him at the door every day and clean his sweat-stained, glistening body with my tongue",
+        "the tribe has spoken. it's time for jeff to go.",
+        "jeff probst once finished a disc race is 15 seconds, one second for every man he's killed",
+        "if anyone talks shit on jeffery roboape will dissolve ther head by crushing it in between the inner-thighs"
+      ],
+      "frequency": [
+        0.5
       ],
       "special": null
     }
