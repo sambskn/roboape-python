@@ -4,6 +4,11 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 import botlogic
 from flask import Flask, request
+import requests
+
+from dotenv import load_dotenv
+import json
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -25,11 +30,12 @@ def send_message(msg):
 	url  = 'https://api.groupme.com/v3/bots/post'
 
 	data = {
-		'bot_id' : os.getenv('GROUPME_BOT_ID'),
 		'text'   : msg,
+		'bot_id' : os.getenv('GROUPME_BOT_ID')
 	}
-	request = Request(url, urlencode(data).encode())
-	json = urlopen(request).read().decode()
+	print(json.dumps(data))
+	response = requests.post(url, params=data)
+	log(response.text)
   
 def log(msg):
 	print(str(msg))

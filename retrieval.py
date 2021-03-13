@@ -2,6 +2,8 @@ import os
 import json
 import requests
 
+from dotenv import load_dotenv
+load_dotenv()
 
 URL = 'https://api.groupme.com/v3'
 TOKEN = '?token=' + os.getenv('GROUPME_TOKEN')
