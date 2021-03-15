@@ -2,4 +2,4 @@
 Flask==1.0
 gunicorn==19.6.0
 watson-developer-cloud==0.26.1
-dotenv==0.0.5
+python-dotenv==0.15.0
