@@ -1,5 +1,5 @@
 
-Flask==1.0
+Flask==2.3.2
 gunicorn==19.6.0
 watson-developer-cloud==0.26.1
 python-dotenv==0.15.0
